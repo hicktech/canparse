@@ -222,7 +222,7 @@ pub struct PgnDefinition {
     name_abbrev: String,
     pub description: String,
     length: u32,
-    spns: HashMap<String, SpnDefinition>,
+    pub spns: HashMap<String, SpnDefinition>,
 }
 
 impl PgnDefinition {
